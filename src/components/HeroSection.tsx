@@ -30,24 +30,17 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-primary-glow to-primary bg-clip-text text-transparent leading-tight">
-            Kreiramo veb sajtove koji pokreću biznis
+            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Attract</span> - kreiranje veb sajtova za mali biznis
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-            Specijalizovani smo za kreiranje modernih i funkcionalnih veb sajtova za kafiće, restorane, teretane, startape i mala preduzeća. Vaš uspeh je naša misija.
+            Specijalizovani smo za kreiranje savremenih, responzivnih veb sajtova za lokale, 
+            male biznise, teretane i slično. Vaš uspeh je naša misija.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg"
-              onClick={scrollToContact}
-              className="bg-gradient-to-r from-primary to-primary-glow hover:shadow-glow transition-all duration-300 text-lg px-8 py-4"
-            >
-              Započnite projekt
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
               onClick={scrollToAbout}
-              className="border-primary/30 hover:bg-primary/10 text-lg px-8 py-4"
+              className="bg-gradient-to-r from-primary to-primary-glow hover:shadow-glow transition-all duration-300 text-lg px-8 py-4"
             >
               Saznajte više
             </Button>

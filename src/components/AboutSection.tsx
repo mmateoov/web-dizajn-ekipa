@@ -33,8 +33,9 @@ const AboutSection = () => {
             O nama
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Mi smo tim mladih i kreativnih developera posvećenih stvaranju izuzetnih veb iskustava. 
-            Specijalizovani smo za male i srednje kompanije koje žele da se istaknu na digitalnom tržištu.
+            Attract je tim mladih, kreativnih programera posvećenih kreiranju izuzetnih digitalnih iskustava. 
+            Verujemo da svaki biznis, bez obzira na veličinu, zaslužuje profesionalan i funkcionalan veb sajt 
+            koji će privući klijente i povećati prodaju.
           </p>
         </div>
 
@@ -62,22 +63,18 @@ const AboutSection = () => {
               Zašto odabrati nas?
             </h3>
             <p className="text-lg text-muted-foreground mb-8">
-              Razumemo izazove malih preduzeća i startapova. Naš cilj nije samo da kreiramo veb sajt, 
+              Razumemo izazove lokala, malih biznisa i teretana. Naš cilj nije samo da kreiramo veb sajt, 
               već da vam pomognemo da rastete i privučete više klijenata. Kombinujemo kreativnost sa 
               tehnološkim znanjem kako bismo vam pružili rešenja koja stvarno rade.
             </p>
-            <div className="grid md:grid-cols-3 gap-8 text-center">
-              <div>
-                <div className="text-3xl font-bold text-primary mb-2">50+</div>
-                <div className="text-muted-foreground">Zadovoljnih klijenata</div>
-              </div>
+            <div className="grid md:grid-cols-2 gap-8 text-center">
               <div>
                 <div className="text-3xl font-bold text-primary mb-2">100%</div>
                 <div className="text-muted-foreground">Mobilno optimizovano</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary mb-2">24/7</div>
-                <div className="text-muted-foreground">Tehnička podrška</div>
+                <div className="text-3xl font-bold text-primary mb-2">7-14</div>
+                <div className="text-muted-foreground">dana za realizaciju</div>
               </div>
             </div>
           </div>

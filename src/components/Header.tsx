@@ -18,7 +18,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-            WebCraft
+            Attract
           </div>
           
           {/* Desktop Navigation */}
@@ -36,24 +36,11 @@ const Header = () => {
               O nama
             </button>
             <button
-              onClick={() => scrollToSection("services")}
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              Usluge
-            </button>
-            <button
               onClick={() => scrollToSection("team")}
               className="text-foreground hover:text-primary transition-colors"
             >
               Naš tim
             </button>
-            <Button
-              variant="default"
-              onClick={() => scrollToSection("contact")}
-              className="bg-gradient-to-r from-primary to-primary-glow hover:shadow-lg transition-all"
-            >
-              Kontakt
-            </Button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -82,24 +69,11 @@ const Header = () => {
                 O nama
               </button>
               <button
-                onClick={() => scrollToSection("services")}
-                className="text-left text-foreground hover:text-primary transition-colors"
-              >
-                Usluge
-              </button>
-              <button
                 onClick={() => scrollToSection("team")}
                 className="text-left text-foreground hover:text-primary transition-colors"
               >
                 Naš tim
               </button>
-              <Button
-                variant="default"
-                onClick={() => scrollToSection("contact")}
-                className="bg-gradient-to-r from-primary to-primary-glow hover:shadow-lg transition-all w-full"
-              >
-                Kontakt
-              </Button>
             </div>
           </nav>
         )}
